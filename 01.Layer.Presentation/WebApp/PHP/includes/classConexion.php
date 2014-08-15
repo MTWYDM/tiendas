@@ -7,12 +7,15 @@ class mysql
     private $bd="tiendas";
     private $conexion;  //Se almacenará el apuntador a la conexion
  
+
+	//Conexión a MySQL
 	public function conectar()
 	{
 		$this->conexion=mysql_connect($this->host,$this->user,$this->clave);
 		mysql_select_db($this->bd,$this->conexion);
 	}
 
+	//Función que regresa todas las ubicaciones 
 	public function listar_ubicaciones()
 	{
 		$consulta="select * from ubicaciones";
@@ -21,8 +24,12 @@ class mysql
 		$this->cerrar();
 
 		$resultSet = array();
+		
+		//Regresa los datos de las ubicaciones
+		//Esta información aparece en el infoWindow generado en Javascript
 		while($result = mysql_fetch_array($resultado))
 		{
+			//Manda llamar al WCF
 			$resultadoconsulta = $this->llamarWCF($result['id_tienda']);
 			//print_r($resultadoconsulta);
 
@@ -55,6 +62,7 @@ class mysql
 
 	}
 
+	//Regresa las ponderaciones y calificaciones de la encuesta
 	public function llamarWCF($tienda)
 	{
 		$servicio = "http://50.62.138.62/wcfEvalCuadra/Service1.svc/Califica/48,4," . $tienda;
@@ -76,6 +84,7 @@ class mysql
 		return $encuesta;
 	}
  
+	//Regresa la información de una ubicación
 	public function listarUbicacion($tienda)
 	{
 
