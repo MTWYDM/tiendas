@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">Monitoreo de Tiendas</string>
+    <string name="tab_cuentas">Cuentas</string>
+    <string name="tab_herramientas">Herramientas</string>
+    <string name="tab_gestiones">Gestiones</string>
+    <string name="tab_graficas">Graficas</string>
+    <string name="lblcatgestion">Manejo de Gestiones</string>
+    <string name="lblnombre">Nombre</string>
+    <string name="lblgestion">Gestiones</string>
+    <string name="lblconcepto">Concepto</string>
+    <string name="lblrutarespaldo">/sdcard/</string>
+    <string name="lbltotal">Total/</string>
+
+    <string name="lblevaluacion">Evaluaciones</string>
+    <string name="lblmetodo">Metodo</string>
+    <string name="lblnumencuesta">Numero Encuesta</string>
+    <string name="lblzona">Zona</string>
+    <string name="lbltienda">Tienda</string>
+    <string name="urlmetodoevaluacion">http://50.62.138.62/wcfEvalCuadra/Service1.svc/Califica/</string>
+     
+	<string name="clean">Limpiar</string>
+	<string name="back">Volver</string>
+	<string name="save">Guardar</string>
+	<string name="search">Consultar</string>
+
+	<string name="str_Latitud">Latitud</string>
+	<string name="str_Longitud">Longitud</string>
+
+	<string name="alert_dialog_ok">Aceptar</string>
+	<string name="alert_dialog_cancel">Cancelar</string>
+	<string name="error">Se ha producido un problema. Comprueba si todos los datos están correctos.</string>
+	<string name="alert_dialog_text_add">Nombre del registro</string>
+	<string name="alert_dialog_text_remove">¿Seguro que quieres borrar el registro?</string>
+	<string name="alert_dialog_text_mantenimiento">Selecciona opcion</string>
+	<string name="alert_dialog_text_duplicar">¿Seguro que quieres duplicar el registro?</string>
+    <string name="alert_dialog_order">Ordenar por</string>
+    <string name="alert_dialog_text_filter">Selecciona una categoría para filtrar</string>
+    <string name="alert_dialog_delete_filter">No filtrar</string>
+    <string name="menu_insert">Agregar registro</string>
+    <string name="menu_edit">Editar registro</string>
+    <string name="menu_delete">Eliminar registro</string>
+    
+    <string name="menu_filter">Filtrar</string>
+    <string name="menu_order">Ordenar</string>
+    
+</resources>

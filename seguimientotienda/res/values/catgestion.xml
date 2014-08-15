@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="gestiones">
+        <item>No se encontro en casa</item>
+        <item>Cambio de domicilio</item>
+        <item>Promete pagar en un mes</item>
+    </string-array>
+</resources>
