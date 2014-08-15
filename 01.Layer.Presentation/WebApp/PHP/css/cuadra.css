@@ -1,0 +1,155 @@
+#regresar
+{
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
+body, div, h1, h2, h3, h4, h5, h6, p, li, td, a, input
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.wrap
+{
+	width: 560px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+
+table
+{
+	min-width: 400px;
+}
+
+td
+{
+	padding: 2px;
+}
+
+h1
+{
+	font-size: 45px;
+}
+
+h2
+{
+	font-size: 20px;
+}
+
+h3
+{
+	font-size: 15px;
+}
+
+html, body
+{
+	height: 100%;
+}
+
+#map_wrapper {
+    height: 100%;
+}
+
+#map_canvas
+{
+	margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+	background: #a65303;
+}
+
+#codigo
+{
+	background: #FFF;
+}
+
+#informacion-tienda
+{
+	color: #FF9966;
+}
+
+#informacion-tienda .wrap
+{
+	padding: 100px 0 50px 0;
+}
+
+#informacion-tienda h1
+{
+	color: #FFF;
+	margin: 20px 0 10px 0;
+}
+
+#header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(128,64,3,0.8);
+	z-index: 100;
+}
+
+#app
+{
+	color: #FFF;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+#el-qr
+{
+	background: #FFF;
+}
+
+#regresar
+{
+	font-weight: 400;
+	color: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #FFF;
+	color: #804003;
+	display: block;
+	line-height: 50px;
+	padding: 0 20px;
+	text-decoration: none;
+}
+
+#regresar:hover
+{
+	-moz-transform: translateX(20px);
+	-webkit-transform: translateX(20px);
+	-o-transform: translateX(20px);
+	-ms-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.fs
+{
+	line-height: 50px;
+}
+
+.fs span
+{
+	text-indent: -9999px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 10px 0 0 0;
+	background: url('../img/foursquare.jpg') no-repeat center center;
+}
+
+strong
+{
+	letter-spacing: -1px;
+	font-weight: bold;
+}
