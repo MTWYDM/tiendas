@@ -25,6 +25,7 @@
 	
 	<div id="header">
 		<h2 id="app">Tiendas</h2>
+		<a href="javascript:history.go(0)" id="regresar">Recargar</a>
 	</div>
 
 	<?php
