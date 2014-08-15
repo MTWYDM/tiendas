@@ -1,6 +1,7 @@
 <?php
 	ob_start();
 	$tienda = $_GET['id_tienda'];
+	$nombre = $_GET['tienda'];
 	
 	if (!$tienda) {
 		header("Location: mapas.php");
@@ -57,7 +58,7 @@
 			  "width": 100,
 			  "height": 100,
 			  "color": "#3a3",
-			  "text": "https://foursquare.com/explore?mode=url&q='.$tienda.'"
+			  "text": "https://foursquare.com/explore?mode=url&q='.$nombre.'"
 			});
 		</script>';
 	

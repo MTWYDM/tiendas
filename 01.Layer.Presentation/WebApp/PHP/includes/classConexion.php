@@ -38,7 +38,7 @@ class mysql
 			$sincolor2 = substr($resultadoconsulta[9], 0, -10);
 
 			$str = '<table><tr><td colspan="2"><h2>'.$result['nombre']."</h2></td></tr>";
-			$str .= '<tr><td colspan="2"><a href="tienda.php?id_tienda='.$result['id_tienda'].'">Más Información</a></td></tr>';
+			$str .= '<tr><td colspan="2"><a href="tienda.php?id_tienda='.$result['id_tienda'].'&tienda='.$result['nombre'].'">Más Información</a></td></tr>';
 
 			$str .= '<tr><td colspan="2"><h3>'.$resultadoconsulta[1].'</h3></td></tr>';
 			$str .= "<tr><td>Ponderación</td><td>Calificación</td></tr>";
